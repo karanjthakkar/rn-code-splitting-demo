@@ -18,6 +18,9 @@
 		2DCD954D1E0B4F2C00145EB5 /* CodeSplittingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CodeSplittingDemoTests.m */; };
 		3CFBE03F712CF094C2D3A7A7 /* libPods-CodeSplittingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55797FD355F5C84D5D2E566 /* libPods-CodeSplittingDemo.a */; };
 		49EE2991FA30B7A190030DCF /* libPods-CodeSplittingDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B95008741A4752BA036487D /* libPods-CodeSplittingDemoTests.a */; };
+		BAF61EEB22CFFBD400A01514 /* NavigationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EEA22CFFBD400A01514 /* NavigationBridge.m */; };
+		BAF61EEE22CFFC2300A01514 /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EED22CFFC2300A01514 /* ReactNativeViewController.m */; };
+		BAF61EF122CFFC6500A01514 /* ReactNativeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EF022CFFC6500A01514 /* ReactNativeHelper.m */; };
 		BCD75117EE6671EDFB269A45 /* libPods-CodeSplittingDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DD91F8129375160A27BA3B /* libPods-CodeSplittingDemo-tvOS.a */; };
 		D1CAB2B7E65E60573490B38F /* libPods-CodeSplittingDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6057C1B187B1A2F7056B5DB2 /* libPods-CodeSplittingDemo-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +66,12 @@
 		79640FCBB37B41F0EB0FE675 /* Pods-CodeSplittingDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSplittingDemo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSplittingDemo-tvOS/Pods-CodeSplittingDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A55797FD355F5C84D5D2E566 /* libPods-CodeSplittingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeSplittingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CC0C8284E4BFFB8526F05F /* Pods-CodeSplittingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSplittingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSplittingDemoTests/Pods-CodeSplittingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAF61EE922CFFBD400A01514 /* NavigationBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavigationBridge.h; path = CodeSplittingDemo/NavigationBridge.h; sourceTree = "<group>"; };
+		BAF61EEA22CFFBD400A01514 /* NavigationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NavigationBridge.m; path = CodeSplittingDemo/NavigationBridge.m; sourceTree = "<group>"; };
+		BAF61EEC22CFFC2300A01514 /* ReactNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactNativeViewController.h; path = CodeSplittingDemo/ReactNativeViewController.h; sourceTree = "<group>"; };
+		BAF61EED22CFFC2300A01514 /* ReactNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ReactNativeViewController.m; path = CodeSplittingDemo/ReactNativeViewController.m; sourceTree = "<group>"; };
+		BAF61EEF22CFFC6500A01514 /* ReactNativeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactNativeHelper.h; path = CodeSplittingDemo/ReactNativeHelper.h; sourceTree = "<group>"; };
+		BAF61EF022CFFC6500A01514 /* ReactNativeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ReactNativeHelper.m; path = CodeSplittingDemo/ReactNativeHelper.m; sourceTree = "<group>"; };
 		BC67E289A13D992E3E1BF737 /* Pods-CodeSplittingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSplittingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSplittingDemo/Pods-CodeSplittingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E0DD91F8129375160A27BA3B /* libPods-CodeSplittingDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeSplittingDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -132,6 +141,12 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				BAF61EE922CFFBD400A01514 /* NavigationBridge.h */,
+				BAF61EEA22CFFBD400A01514 /* NavigationBridge.m */,
+				BAF61EEC22CFFC2300A01514 /* ReactNativeViewController.h */,
+				BAF61EED22CFFC2300A01514 /* ReactNativeViewController.m */,
+				BAF61EEF22CFFC6500A01514 /* ReactNativeHelper.h */,
+				BAF61EF022CFFC6500A01514 /* ReactNativeHelper.m */,
 			);
 			name = CodeSplittingDemo;
 			sourceTree = "<group>";
@@ -307,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -528,7 +544,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				BAF61EF122CFFC6500A01514 /* ReactNativeHelper.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				BAF61EEB22CFFBD400A01514 /* NavigationBridge.m in Sources */,
+				BAF61EEE22CFFC2300A01514 /* ReactNativeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
