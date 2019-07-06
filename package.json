@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "react": "16.8.6",
+    "react-loadable": "^5.5.0",
     "react-native": "github:karanjthakkar/react-native#1b3d0a21c4fd0fa03d16f3c7e47206d2f73e21bf"
   },
   "devDependencies": {

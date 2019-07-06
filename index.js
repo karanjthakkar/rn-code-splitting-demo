@@ -1,9 +1,19 @@
-/**
- * @format
- */
+import { AppRegistry } from 'react-native';
+import ScreenA from './ScreenA';
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+import Loadable from 'react-loadable';
+import Loading from './Loading'
 
-AppRegistry.registerComponent(appName, () => App);
+const LazyScreenB = Loadable({
+  loader: () => import('./ScreenB'),
+  loading: Loading,
+})
+
+const LazyScreenC = Loadable({
+  loader: () => import('./ScreenC'),
+  loading: Loading,
+})
+
+AppRegistry.registerComponent('ScreenA', () => ScreenA);
+AppRegistry.registerComponent('ScreenB', () => LazyScreenB);
+AppRegistry.registerComponent('ScreenC', () => LazyScreenC);
