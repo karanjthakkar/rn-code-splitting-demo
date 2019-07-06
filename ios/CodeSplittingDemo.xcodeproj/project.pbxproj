@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* CodeSplittingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CodeSplittingDemoTests.m */; };
 		3CFBE03F712CF094C2D3A7A7 /* libPods-CodeSplittingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A55797FD355F5C84D5D2E566 /* libPods-CodeSplittingDemo.a */; };
 		49EE2991FA30B7A190030DCF /* libPods-CodeSplittingDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B95008741A4752BA036487D /* libPods-CodeSplittingDemoTests.a */; };
+		BA84BA5122D00728009D9CDB /* LazyLoaderBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BA84BA5022D00728009D9CDB /* LazyLoaderBridge.m */; };
 		BAF61EEB22CFFBD400A01514 /* NavigationBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EEA22CFFBD400A01514 /* NavigationBridge.m */; };
 		BAF61EEE22CFFC2300A01514 /* ReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EED22CFFC2300A01514 /* ReactNativeViewController.m */; };
 		BAF61EF122CFFC6500A01514 /* ReactNativeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF61EF022CFFC6500A01514 /* ReactNativeHelper.m */; };
@@ -66,6 +67,8 @@
 		79640FCBB37B41F0EB0FE675 /* Pods-CodeSplittingDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSplittingDemo-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSplittingDemo-tvOS/Pods-CodeSplittingDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A55797FD355F5C84D5D2E566 /* libPods-CodeSplittingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeSplittingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CC0C8284E4BFFB8526F05F /* Pods-CodeSplittingDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSplittingDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeSplittingDemoTests/Pods-CodeSplittingDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA84BA4F22D00728009D9CDB /* LazyLoaderBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LazyLoaderBridge.h; path = CodeSplittingDemo/LazyLoaderBridge.h; sourceTree = "<group>"; };
+		BA84BA5022D00728009D9CDB /* LazyLoaderBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LazyLoaderBridge.m; path = CodeSplittingDemo/LazyLoaderBridge.m; sourceTree = "<group>"; };
 		BAF61EE922CFFBD400A01514 /* NavigationBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NavigationBridge.h; path = CodeSplittingDemo/NavigationBridge.h; sourceTree = "<group>"; };
 		BAF61EEA22CFFBD400A01514 /* NavigationBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NavigationBridge.m; path = CodeSplittingDemo/NavigationBridge.m; sourceTree = "<group>"; };
 		BAF61EEC22CFFC2300A01514 /* ReactNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReactNativeViewController.h; path = CodeSplittingDemo/ReactNativeViewController.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				BAF61EED22CFFC2300A01514 /* ReactNativeViewController.m */,
 				BAF61EEF22CFFC6500A01514 /* ReactNativeHelper.h */,
 				BAF61EF022CFFC6500A01514 /* ReactNativeHelper.m */,
+				BA84BA4F22D00728009D9CDB /* LazyLoaderBridge.h */,
+				BA84BA5022D00728009D9CDB /* LazyLoaderBridge.m */,
 			);
 			name = CodeSplittingDemo;
 			sourceTree = "<group>";
@@ -528,6 +533,7 @@
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				BAF61EEB22CFFBD400A01514 /* NavigationBridge.m in Sources */,
 				BAF61EEE22CFFC2300A01514 /* ReactNativeViewController.m in Sources */,
+				BA84BA5122D00728009D9CDB /* LazyLoaderBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
