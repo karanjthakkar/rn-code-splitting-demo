@@ -13,5 +13,6 @@ module.exports = {
         inlineRequires: false,
       },
     }),
+    asyncRequireModulePath: require.resolve('./loader.js')
   },
 };
